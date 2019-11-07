@@ -29,3 +29,12 @@ script: true
  # Another command/method to run tests
 script: 
   - python countTest.py
+  
+  
+ deploy:
+  provider: heroku
+  api_key:
+    secure: e6fe132c-6636-4194-80ee-776cb7dc1c06
+  app: for-my-test
+  on:
+    repo: muyumiya1201/SE_Test
