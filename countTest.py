@@ -18,6 +18,9 @@ class TestCalculator(unittest.TestCase):
 
     def test_float_copy2(self):
         self.assertEqual(count.copy(5.4), 5.4)
+		
+	def test_float_copy3(self):
+        self.assertEqual(count.copy(11.2), 11.2)
 
 if __name__ == '__main__':
     unittest.main()
