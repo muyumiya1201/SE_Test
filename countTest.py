@@ -6,9 +6,6 @@ class countTest(unittest.TestCase):
 
     def test_int2_add(self):
         self.assertEqual(count.add(7, 2), 9)
-	
-	def test_float_add(self):
-		self.assertEqual(count.add(7.1, 2), 9.1)
 		
 	def test_float2_add(self):
         self.assertEqual(count.add(1.3, 3), 4.3)
@@ -21,6 +18,7 @@ class countTest(unittest.TestCase):
 		
 	def test_float_copy3(self):
         self.assertEqual(count.copy(11.2), 11.2)
+
 
 if __name__ == '__main__':
     unittest.main()
