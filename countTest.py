@@ -8,7 +8,7 @@ class countTest(unittest.TestCase):
         self.assertEqual(count.add(7, 2), 9)
 	
 	def test_float_add(self):
-        self.assertEqual(count.add(7.1, 2), 9.1)
+		self.assertEqual(count.add(7.1, 2), 9.1)
 		
 	def test_float2_add(self):
         self.assertEqual(count.add(1.3, 3), 4.3)
