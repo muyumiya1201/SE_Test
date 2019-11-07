@@ -1,6 +1,6 @@
 import unittest
 import count as count
-class TestCalculator(unittest.TestCase):
+class countTest(unittest.TestCase):
     def test_int_add(self):
         self.assertEqual(count.add(1, 3), 4)
 
