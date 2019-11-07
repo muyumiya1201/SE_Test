@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-	//this is for hello for test
+	//this is test for conflict
 	printf("hello for test");
 	return 0;
 }
